@@ -48,15 +48,15 @@ const meta: Record<string, { tag: string; focus: [string, string, string] }> = {
 const EASE = [0.25, 0.1, 0.25, 1.0] as const
 
 // A fitting photo per treatment. See public/images/treatments/CREDITS.md for licensing.
-const FALLBACK = { src: '/images/hero.png', alt: 'Physiotherapy treatment' }
+const FALLBACK = { src: '/images/hero.webp', alt: 'Physiotherapy treatment' }
 const serviceImages: Record<string, { src: string; alt: string }> = {
   'Sports Injury Rehabilitation': { src: '/images/treatments/sports-rehab.jpg', alt: 'Physiotherapist guiding a patient through resistance-band rehabilitation' },
-  'Manual Therapy': { src: '/images/hero.png', alt: 'Physiotherapist performing hands-on manual therapy' },
+  'Manual Therapy': { src: '/images/hero.webp', alt: 'Physiotherapist performing hands-on manual therapy' },
   'Dry Needling': { src: '/images/treatments/dry-needling.jpg', alt: 'Fine needles applied along the lower back during dry needling' },
   'Back & Neck Pain': { src: '/images/treatments/back-neck.jpg', alt: 'Physiotherapist performing hands-on treatment for back and neck pain' },
   'Post Surgical Rehabilitation': { src: '/images/treatments/post-surgical.jpg', alt: 'Patient doing guided resistance-band leg rehabilitation after surgery' },
   'Posture Assessment': { src: '/images/treatments/posture-assessment.jpg', alt: 'Physiotherapist assessing and treating a patient in a modern clinic' },
-  'Joint Mobilisation': { src: '/images/treatments/joint-mobilisation.png', alt: 'Physiotherapist mobilising a patient’s shoulder joint' },
+  'Joint Mobilisation': { src: '/images/treatments/joint-mobilisation.webp', alt: 'Physiotherapist mobilising a patient’s shoulder joint' },
   'Exercise Therapy': { src: '/images/about.jpg', alt: 'Patient performing guided rehabilitation exercise' },
   'Balance & Mobility Training': { src: '/images/treatments/balance-mobility.jpg', alt: 'Patient performing a mobility exercise during balance training' },
 }

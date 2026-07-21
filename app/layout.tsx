@@ -79,6 +79,10 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta name="theme-color" content="#080B10" />
+        {/* Preload the hero (LCP) image — it is client-rendered, so hint it early */}
+        <link rel="preload" as="image" href="/images/hero.webp" fetchPriority="high" />
+        {/* Warm the Cal.com embed connection ahead of the booking modal */}
+        <link rel="preconnect" href="https://app.cal.com" crossOrigin="" />
       </head>
       <body className="min-h-screen bg-paper text-ink antialiased">
         <ScrollProgress />

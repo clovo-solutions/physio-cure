@@ -115,7 +115,7 @@ function PortraitCard({ reducedMotion }: { reducedMotion: boolean }) {
           style={{ transform: 'translateZ(0)', backfaceVisibility: 'hidden' }}
         >
           <motion.img
-            src="/images/hero.png"
+            src="/images/hero.webp"
             alt="Physiotherapist providing focused, hands-on treatment to a patient"
             style={
               reducedMotion
